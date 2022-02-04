@@ -1,0 +1,15 @@
+tasks:
+  - name: Install Hugo dependencies
+    before: npm install && brew install hugo
+    init: echo "Your version of Hugo is `hugo version`"
+    command: hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0
+
+ports:
+  - port: 1313
+    onOpen: open-browser
+
+vscode:
+  extensions:
+    - bradlc.vscode-tailwindcss
+    - budparr.language-hugo-vscode
+    - eliostruyf.vscode-front-matter-beta

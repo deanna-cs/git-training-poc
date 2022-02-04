@@ -1,0 +1,19 @@
+{
+  "name": "hugostarter",
+  "version": "1.0.0",
+  "description": "Starter Template for Hugo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/zivbk1/hugostarter.git"
+  },
+  "author": "Bryan Klein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/zivbk1/hugostarter/issues"
+  },
+  "homepage": "https://gitlab.com/zivbk1/hugostarter#readme"
+}
