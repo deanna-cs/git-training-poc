@@ -1,10 +1,12 @@
 tasks:
   - name: Update Modified Time and Setup Environment
-    init: npm install && brew install hugo && sudo apt install git-restore-mtime
+    init: sudo apt install git-restore-mtime
     command: git restore-mtime --force && gpUrl=$(gp url 1313);jq --arg gpurl "$gpUrl" '.["frontMatter.preview.host"] = $gpurl' frontmatter.json > tmp.$$.json && mv tmp.$$.json frontmatter.json
   - name: Run Tailwind CSS JIT
+    init: npm install
     command: npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch
   - name: Run Hugo Dev Server
+    init: npm install && brew install hugo
     command: hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0
 
 ports:
