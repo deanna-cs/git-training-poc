@@ -1,0 +1,4 @@
+{
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.framework.startCommand": "hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0"
+}
