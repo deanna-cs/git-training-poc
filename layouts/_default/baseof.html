@@ -3,13 +3,16 @@
 
 {{ partial "head" . }}
 
-<body>
+<body class="flex flex-col h-screen">
 
   {{ partial "nav" . }}
 
   <main>
     {{block "main" . }}{{ end }}
   </main>
+
+  {{ partialCached "footer" . }} 
+  
 </body>
 
 </html>

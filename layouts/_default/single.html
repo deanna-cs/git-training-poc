@@ -1,0 +1,11 @@
+{{- define "main" -}}
+<article class="mt-8 mx-auto prose prose-slate">
+  <h1>
+    {{ .Title }}
+  </h1>
+  {{ .Content }}
+  <div class="pt-4">
+    This is at the bottom of every post.
+  </div>
+</article>
+{{- end -}}
