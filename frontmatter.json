@@ -3,7 +3,7 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.autoUpdateDate": true,
-  "frontMatter.preview.host": "",
+  "frontMatter.preview.host": "https://1313-zivbk1-hugostarter-a6xr2qlqno2.ws-us30.gitpod.io",
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0",
   "frontMatter.content.pageFolders": [
