@@ -3,7 +3,7 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.autoUpdateDate": true,
-  "frontMatter.preview.host": "https://1313-zivbk1-hugostarter-a6xr2qlqno2.ws-us30.gitpod.io",
+  "frontMatter.preview.host": "",
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0",
   "frontMatter.content.pageFolders": [
@@ -51,6 +51,15 @@
           "name": "preview",
           "type": "image",
           "isPreviewImage": true
+        },
+        {
+          "title": "Page Sections",
+          "name": "page_sections",
+          "type": "block",
+          "blockType": [
+            "hero",
+            "content"
+          ]
         },
         {
           "title": "Content Type",
@@ -134,6 +143,47 @@
           "url": {
             "type": "string",
             "title": "URL"
+          }
+        }
+      }
+    }
+  ],
+  "frontMatter.data.types": [
+    {
+      "id": "hero",
+      "schema": {
+        "type": "object",
+        "required": [
+          "heading_markdown"
+        ],
+        "properties": {
+          "heading_markdown": {
+            "type": "string",
+            "title": "Heading"
+          },
+          "background_choice": {
+            "type": "string",
+            "title": "Background Color"
+          },
+          "text_choice": {
+            "type": "string",
+            "title": "Text Color"
+          },
+          "blockType": {
+            "type": "string",
+            "title": "Block Template"
+          }
+        }
+      }
+    },
+    {
+      "id": "content",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "blockType": {
+            "type": "string",
+            "title": "Block Template"
           }
         }
       }
