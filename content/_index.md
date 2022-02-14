@@ -19,10 +19,10 @@ page_sections:
     description: This is testing all the field types.
     date: '2022-02-14T18:21:07.492Z'
     toggled: true
-    background_choice: black
+    background_choice: gray
     text_choice: white
 type: page
-lastmod: '2022-02-14T18:21:25.583Z'
+lastmod: '2022-02-14T19:42:35.995Z'
 description: Stuff here
 preview: /uploads/241831987_10227025478486818_5435483714951671474_n.jpg
 ---

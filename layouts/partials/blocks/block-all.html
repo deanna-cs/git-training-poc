@@ -1,0 +1,33 @@
+<section aria-label="All the Things!" class='mx-auto max-w-4xl p-4 lg:py-10 mt-8  
+  {{ if eq .Section.background_choice "black" }}bg-black {{ end }}
+  {{ if eq .Section.background_choice "gray" }}bg-gray-600 {{ end }}
+  {{ if eq .Section.text_choice "black" }}text-black{{ end }} 
+  {{ if eq .Section.text_choice "white" }}text-white{{ end }}'>
+  <h1
+    id="{{ urlize .Section.title }}" 
+    class="text-3xl print:text-3xl md:text-4xl font-heading"
+  >
+    {{ markdownify .Section.title }}
+  </h1>
+  <p class="bg-gray-100 p-4 my-2 text-gray-600">
+    {{ markdownify .Section.description }}
+  </p>
+  <p>Date: {{.Section.date}}</p>
+  <p>
+    Was was toggled?
+    <label>
+      <input class="cursor-not-allowed" type="checkbox" {{ if .Section.toggled }}checked aria-checked="true"{{ end }} disabled>
+      <span class="slider"></span>
+    </label>
+  </p>
+  {{ with .Section.photo }}
+    <h2>Photo</h2>
+    <figure>
+      <img src={{.image}} alt={{.title}}>
+      <figcaption>{{.title}}</figcaption>
+    </figure>
+  {{ end }}
+  {{ with .Section.feeling }}
+    <p>Today I feel {{ . }}.</p>
+  {{ end }}
+</section>
