@@ -3,7 +3,7 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.autoUpdateDate": true,
-  "frontMatter.preview.host": "",
+  "frontMatter.preview.host": "https://1313-zivbk1-hugostarter-eidt4w5jrw4.ws-us31.gitpod.io",
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0",
   "frontMatter.content.pageFolders": [
@@ -55,11 +55,8 @@
         {
           "title": "Page Sections",
           "name": "page_sections",
-          "type": "json",
-          "dataType": [
-            "hero",
-            "content"
-          ]
+          "type": "block",
+          "fieldGroup": ["hero", "content"]
         },
         {
           "title": "Content Type",
@@ -148,43 +145,46 @@
       }
     }
   ],
-  "frontMatter.data.types": [
+  "frontMatter.taxonomy.fieldGroups": [
     {
       "id": "hero",
       "labelField": "heading_markdown",
-      "schema": {
-        "type": "object",
-        "required": [
-          "heading_markdown"
-        ],
-        "properties": {
-          "heading_markdown": {
-            "type": "string",
-            "title": "Heading"
-          },
-          "background_choice": {
-            "type": "string",
-            "title": "Background Color"
-          },
-          "text_choice": {
-            "type": "string",
-            "title": "Text Color"
-          }
+      "fields": [
+        {
+          "title": "Heading",
+          "name": "heading_markdown",
+          "type": "string"
+        },
+        {
+          "title": "Background Color",
+          "name": "background_choice",
+          "type": "choice",
+          "choices": [
+            { "id": "black", "title": "Black" },
+            { "id": "gray", "title": "Gray" }
+          ]
+        },
+        {
+          "title": "Text Color",
+          "name": "text_choice",
+          "type": "choice",
+          "choices": [
+            { "id": "black", "title": "Black" },
+            { "id": "white", "title": "White" }
+          ]
         }
-      }
+      ]
     },
     {
       "id": "content",
       "labelField": "label",
-      "schema": {
-        "type": "object",
-        "properties": {
-          "label": {
-            "type": "string",
-            "title": "Label"
-          }
+      "fields": [
+        {
+          "title": "Label",
+          "name": "label",
+          "type": "string"
         }
-      }
+      ]
     }
   ]
 }
