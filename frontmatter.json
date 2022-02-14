@@ -56,7 +56,7 @@
           "title": "Page Sections",
           "name": "page_sections",
           "type": "block",
-          "fieldGroup": ["hero", "content"]
+          "fieldGroup": ["hero", "content", "all"]
         },
         {
           "title": "Content Type",
@@ -185,6 +185,88 @@
           "type": "string"
         }
       ]
+    },
+    {
+      "id": "all",
+      "labelField": "title",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Toggle",
+          "name": "toggled",
+          "type": "boolean"
+        },
+        {
+          "title": "Feeling",
+          "name": "feeling",
+          "type": "taxonomy",
+          "taxonomyId": "feelings"
+        },
+        {
+          "title": "Photo",
+          "type": "fields",
+          "name": "photo",
+          "fields": [
+            {
+              "title": "Title",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "title": "Image",
+              "name": "image",
+              "type": "image"
+            }
+          ]
+        },
+        {
+          "title": "Background Color",
+          "name": "background_choice",
+          "type": "choice",
+          "choices": [
+            { "id": "black", "title": "Black" },
+            { "id": "gray", "title": "Gray" }
+          ]
+        },
+        {
+          "title": "Text Color",
+          "name": "text_choice",
+          "type": "choice",
+          "choices": [
+            { "id": "black", "title": "Black" },
+            { "id": "white", "title": "White" }
+          ]
+        }
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.customTaxonomy": [
+    {
+      "id": "feelings",
+      "options": [
+        "Cheerful",
+        "Content",
+        "Enthralled",
+        "Optimistic",
+        "Proud",
+        "Relieved"
+      ]
     }
   ]
+  
 }

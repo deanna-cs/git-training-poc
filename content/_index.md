@@ -14,8 +14,15 @@ page_sections:
     fieldGroup: hero
     background_choice: black
     text_choice: white
+  - title: Kitchen Sink
+    fieldGroup: all
+    description: This is testing all the field types.
+    date: '2022-02-14T18:21:07.492Z'
+    toggled: true
+    background_choice: black
+    text_choice: white
 type: page
-lastmod: '2022-02-14T17:54:00.618Z'
+lastmod: '2022-02-14T18:21:25.583Z'
 description: Stuff here
 preview: /uploads/241831987_10227025478486818_5435483714951671474_n.jpg
 ---
