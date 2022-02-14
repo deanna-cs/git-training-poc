@@ -3,15 +3,12 @@
   {{ if eq .Section.background_choice "gray" }}bg-gray-600 {{ end }}
   {{ if eq .Section.text_choice "black" }}text-black{{ end }} 
   {{ if eq .Section.text_choice "white" }}text-white{{ end }}'>
-  <h1
-    id="{{ urlize .Section.title }}" 
-    class="text-3xl print:text-3xl md:text-4xl font-heading"
-  >
+  <h1 id="{{ urlize .Section.title }}" class="text-3xl print:text-3xl md:text-4xl font-heading">
     {{ markdownify .Section.title }}
   </h1>
-  <p class="bg-gray-100 p-4 my-2 text-gray-600">
+  <div class="bg-gray-100 p-4 my-2 text-gray-600 prose">
     {{ markdownify .Section.description }}
-  </p>
+  </div>
   <p>Date: {{.Section.date}}</p>
   <p>
     Was was toggled?

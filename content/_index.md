@@ -16,14 +16,20 @@ page_sections:
     text_choice: white
   - title: Kitchen Sink
     fieldGroup: all
-    description: This is testing all the field types.
+    description: |-
+      This is testing all the field types, with **Markdown** formatting of course.  
+      Including paragraph breaks and all the bells and whistles.  
+      - How about a bullet list.
+      - Does that do anything for you?
     date: '2022-02-14T18:21:07.492Z'
     toggled: true
     background_choice: gray
     text_choice: white
+    photo:
+      title: Pretty Kitty
 type: page
-lastmod: '2022-02-14T19:42:35.995Z'
-description: Stuff here
+lastmod: '2022-02-14T22:16:48.777Z'
+description: Stuff here.
 preview: /uploads/241831987_10227025478486818_5435483714951671474_n.jpg
 ---
 

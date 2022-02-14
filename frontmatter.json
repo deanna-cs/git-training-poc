@@ -3,7 +3,7 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.autoUpdateDate": true,
-  "frontMatter.preview.host": "https://1313-zivbk1-hugostarter-eidt4w5jrw4.ws-us31.gitpod.io",
+  "frontMatter.preview.host": "https://1313-zivbk1-hugostarter-0lz9n5vag97.ws-us31.gitpod.io",
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0",
   "frontMatter.content.pageFolders": [
@@ -56,7 +56,11 @@
           "title": "Page Sections",
           "name": "page_sections",
           "type": "block",
-          "fieldGroup": ["hero", "content", "all"]
+          "fieldGroup": [
+            "hero",
+            "content",
+            "all"
+          ]
         },
         {
           "title": "Content Type",
@@ -160,8 +164,14 @@
           "name": "background_choice",
           "type": "choice",
           "choices": [
-            { "id": "black", "title": "Black" },
-            { "id": "gray", "title": "Gray" }
+            {
+              "id": "black",
+              "title": "Black"
+            },
+            {
+              "id": "gray",
+              "title": "Gray"
+            }
           ]
         },
         {
@@ -169,8 +179,14 @@
           "name": "text_choice",
           "type": "choice",
           "choices": [
-            { "id": "black", "title": "Black" },
-            { "id": "white", "title": "White" }
+            {
+              "id": "black",
+              "title": "Black"
+            },
+            {
+              "id": "white",
+              "title": "White"
+            }
           ]
         }
       ]
@@ -239,8 +255,14 @@
           "name": "background_choice",
           "type": "choice",
           "choices": [
-            { "id": "black", "title": "Black" },
-            { "id": "gray", "title": "Gray" }
+            {
+              "id": "black",
+              "title": "Black"
+            },
+            {
+              "id": "gray",
+              "title": "Gray"
+            }
           ]
         },
         {
@@ -248,8 +270,14 @@
           "name": "text_choice",
           "type": "choice",
           "choices": [
-            { "id": "black", "title": "Black" },
-            { "id": "white", "title": "White" }
+            {
+              "id": "black",
+              "title": "Black"
+            },
+            {
+              "id": "white",
+              "title": "White"
+            }
           ]
         }
       ]
@@ -268,5 +296,4 @@
       ]
     }
   ]
-  
 }
