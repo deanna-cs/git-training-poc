@@ -3,7 +3,7 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.autoUpdateDate": true,
-  "frontMatter.preview.host": "",
+  "frontMatter.preview.host": "https://1313-zivbk1-hugostarter-rd6g6aoy77x.ws-us31.gitpod.io",
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0",
   "frontMatter.content.pageFolders": [
@@ -55,8 +55,8 @@
         {
           "title": "Page Sections",
           "name": "page_sections",
-          "type": "block",
-          "blockType": [
+          "type": "json",
+          "dataType": [
             "hero",
             "content"
           ]
@@ -151,6 +151,7 @@
   "frontMatter.data.types": [
     {
       "id": "hero",
+      "labelField": "heading_markdown",
       "schema": {
         "type": "object",
         "required": [
@@ -168,22 +169,19 @@
           "text_choice": {
             "type": "string",
             "title": "Text Color"
-          },
-          "blockType": {
-            "type": "string",
-            "title": "Block Template"
           }
         }
       }
     },
     {
       "id": "content",
+      "labelField": "label",
       "schema": {
         "type": "object",
         "properties": {
-          "blockType": {
+          "label": {
             "type": "string",
-            "title": "Block Template"
+            "title": "Label"
           }
         }
       }

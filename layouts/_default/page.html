@@ -1,7 +1,7 @@
 {{- define "main" -}}
   {{ $count := 0}}
   {{- range .Params.page_sections -}}
-    {{ partial (printf "blocks/block-%s.html" .blockType) (dict "Section" . "Page" $ "section_count" $count ) }}
+    {{ partial (printf "blocks/block-%s.html" .dataType) (dict "Section" . "Page" $ "section_count" $count ) }}
     {{ $count = (add $count 1) }}
   {{- end -}}
 {{- end -}}
