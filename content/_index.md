@@ -27,8 +27,11 @@ page_sections:
     text_choice: white
     photo:
       title: Pretty Kitty
+      image: /uploads/241831987_10227025478486818_5435483714951671474_n.jpg
+    feeling:
+      - Cheerful
 type: page
-lastmod: '2022-02-14T22:16:48.777Z'
+lastmod: '2022-02-15T00:58:51.957Z'
 description: Stuff here.
 preview: /uploads/241831987_10227025478486818_5435483714951671474_n.jpg
 ---

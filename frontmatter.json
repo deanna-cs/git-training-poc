@@ -3,7 +3,7 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.autoUpdateDate": true,
-  "frontMatter.preview.host": "https://1313-zivbk1-hugostarter-0lz9n5vag97.ws-us31.gitpod.io",
+  "frontMatter.preview.host": "https://1313-zivbk1-hugostarter-5mc0sxh26pe.ws-us31.gitpod.io",
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0",
   "frontMatter.content.pageFolders": [
@@ -228,6 +228,12 @@
           "type": "boolean"
         },
         {
+          "title": "Authors",
+          "name": "authors",
+          "type": "block",
+          "fieldGroup": ["author"]
+        },
+        {
           "title": "Feeling",
           "name": "feeling",
           "type": "taxonomy",
@@ -279,6 +285,35 @@
               "title": "White"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "author",
+      "labelField": "name",
+      "fields": [
+        {
+          "title": "Author Name",
+          "name": "name",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Social",
+          "name": "social",
+          "type": "block",
+          "fieldGroup": ["social"]
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "labelField": "name",
+      "fields": [
+        {
+          "title": "Service Name",
+          "name": "name",
+          "type": "string"
         }
       ]
     }
