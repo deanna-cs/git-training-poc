@@ -14,7 +14,7 @@ page_sections:
     fieldGroup: hero
     background_choice: black
     text_choice: white
-  - title: Kitchen Sink
+  - title: Kitchen Sink Demo
     fieldGroup: all
     description: |-
       This is testing all the field types, with **Markdown** formatting of course.  
@@ -30,8 +30,9 @@ page_sections:
       image: /uploads/241831987_10227025478486818_5435483714951671474_n.jpg
     feeling:
       - Cheerful
+      - Enthralled
 type: page
-lastmod: '2022-02-15T00:58:51.957Z'
+lastmod: '2022-02-15T01:29:11.487Z'
 description: Stuff here.
 preview: /uploads/241831987_10227025478486818_5435483714951671474_n.jpg
 ---
