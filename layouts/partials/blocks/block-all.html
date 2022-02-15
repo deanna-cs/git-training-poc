@@ -7,6 +7,7 @@
     {{ markdownify .Section.title }}
   </h1>
   <p>Date: {{ time.Format "Monday, Jan 2, 2006" .Section.date }}</p>
+  {{ partial "components/authors" .Section.authors }}
   <div class="bg-gray-100 p-4 my-2 text-gray-600 prose">
     {{ markdownify .Section.description }}
   </div>

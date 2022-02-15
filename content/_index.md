@@ -31,8 +31,21 @@ page_sections:
     feeling:
       - Cheerful
       - Enthralled
+    authors:
+      - name: Bryan Klein
+        fieldGroup: author
+        social:
+          - name: Twitter
+            fieldGroup: social
+          - name: LinkedIn
+            fieldGroup: social
+      - name: Carrie Klein
+        fieldGroup: author
+        social:
+          - name: LinkedIn
+            fieldGroup: social
 type: page
-lastmod: '2022-02-15T01:29:11.487Z'
+lastmod: '2022-02-15T16:39:29.098Z'
 description: Stuff here.
 preview: /uploads/241831987_10227025478486818_5435483714951671474_n.jpg
 ---
