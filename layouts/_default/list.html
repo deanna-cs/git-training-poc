@@ -1,11 +1,11 @@
 {{ define "main" }}
-<section class="block mt-8 px-8">
-  <div class="max-w-full lg:max-w-6xl mx-auto pb-8">
-    <h2 class="font-heading text-4xl text-psrfcu">{{ .Title }}</h2>
+<section class="block mt-8 px-8 mb-12">
+  <div class="w-full max-w-6xl mx-auto pb-8 prose prose-img:rounded-xl prose-img:max-w-2xl prose-headings:underline">
+    <h2 class="font-medium text-4xl text-gray-600">{{ .Title }} - <span class="capitalize">{{ .Params.flavor }}</span></h2>
     {{ .Content }}
   </div>
   <div aria-label="List of all news posts." class="max-w-full lg:max-w-6xl mx-auto flex flex-wrap justify-between">
-    {{ range .Paginator.Pages }}
+    {{ range .Pages }}
     <div class="lg:max-w-xl w-full lg:flex p-4 mx-auto">
       <div aria-label="Featured Image"
         class="h-48 lg:h-auto lg:w-48 flex-none bg-cover bg-center border-l border-t border-r rounded-t lg:border-b lg:rounded-t-none lg:rounded-l text-center overflow-hidden" 
