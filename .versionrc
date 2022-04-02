@@ -1,0 +1,9 @@
+{
+  "types": [
+    {"type":"design","section":"Design changes"},
+    {"type":"new","section":"New material"},
+    {"type":"chore","section":"Housekeeping items"},
+    {"type": "fix", "section": "Fixes"},
+    {"type":"build","section":"Build process updates"}
+  ]
+}
