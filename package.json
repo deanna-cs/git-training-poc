@@ -1,10 +1,10 @@
 {
-  "name": "hugostarter",
+  "name": "gitplayground",
   "version": "1.0.0",
   "description": "Starter Template for Hugo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0",
+    "standard-version": "^9.3.2",
     "tailwindcss": "^3.0.18"
   }
 }
