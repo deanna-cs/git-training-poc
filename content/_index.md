@@ -1,12 +1,12 @@
 ---
-title: Community docs playground
+title: The Good Dogs project
 date: 2022-02-04T21:48:46.000Z
 draft: false
 layout: page
 page_sections:
   - background_choice: gray
     fieldGroup: hero
-    heading_markdown: Community docs playground
+    heading_markdown: The Good Dogs project 🐶
   - label: Content Section
     fieldGroup: content
   # - heading_markdown: Another Heading
@@ -55,8 +55,28 @@ description: Stuff here.
 preview: /uploads/241831987_10227025478486818_5435483714951671474_n.jpg
 ---
 
-## Heading 1
+## About us
 
-Some additional content for the `.Content` variable in a **block**.
+The Good Dogs project is focused on teaching you best practices for raising and training happy and healthy dogs!
 
-> This is a blockquote in markdown.
+<figure>
+  <p align="center">
+    <img src="images/running_dog.jpg" alt="A cute running dog" width="500" height="500" />
+  </p>
+    <figcaption>Photo by County Life.</figcaption>
+</figure>
+
+## Why? 
+
+We want to teach you how to create positive relationships between you and your dog. 
+## How
+
+We have an award-winning, 12-week program that teaches you how to:
+* Communicate with your dog so he listens 
+* Address and solve any behavorial issues that arise 
+* Teach your dogs on and off leash obedience
+* And more!
+
+## Who
+
+New and experienced dog owners alike will benefit from our 12-week program. We meet with you and your dog in a private, one-on-one session where we learn more about you and your pup. Our trainers will tailor our 12-week program to meet you and your dog's needs.
