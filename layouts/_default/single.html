@@ -4,13 +4,5 @@
     {{ .Title }}
   </h1>
   {{ .Content }}
-  <div class="pt-4">
-    This is at the bottom of every post.
-    {{ with .Params.flavor }}
-      I love the taste of {{ . }}, {{ $.Title }}.
-    {{ else }}
-      Tasteless
-    {{ end }}
-  </div>
 </article>
 {{- end -}}
