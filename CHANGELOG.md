@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1-3](https://gitlab.com/zivbk1/hugostarter/compare/v1.0.1-2...v1.0.1-3) (2022-04-13)
+
+
+### Housekeeping items
+
+* Remove old blog post [skip ci] ([71d39b5](https://gitlab.com/zivbk1/hugostarter/commit/71d39b5a51b3ac34c02d7cb89b11df58d5515c63))
+* Rename blog post ([33cb223](https://gitlab.com/zivbk1/hugostarter/commit/33cb2231b7f5d7794bfacaa703ec44ce75b9475a))
+
+
+### Fixes
+
+* Change draft status for commands post [skip ci] ([e64fb7e](https://gitlab.com/zivbk1/hugostarter/commit/e64fb7eeaf8ca6cc490cec880409cd6998efc707))
+
 ### [1.0.1-2](https://gitlab.com/zivbk1/hugostarter/compare/v1.0.1-1...v1.0.1-2) (2022-04-13)
 
 
