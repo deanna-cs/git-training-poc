@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1-2](https://gitlab.com/zivbk1/hugostarter/compare/v1.0.1-1...v1.0.1-2) (2022-04-13)
+
+
+### New material
+
+* Add new blog starter content ([5d713d6](https://gitlab.com/zivbk1/hugostarter/commit/5d713d64912e9f71081c027fbbead50aee672f03))
+* Add new contact page ([5c26a50](https://gitlab.com/zivbk1/hugostarter/commit/5c26a50e942c7097118433f59f4706768d072295))
+* Add new images of dogs ([40772c8](https://gitlab.com/zivbk1/hugostarter/commit/40772c8f7c239a6f29d6419facdca985df838886))
+
+
+### Design changes
+
+* Modify single page layout ([0733590](https://gitlab.com/zivbk1/hugostarter/commit/073359080817e31d14381eb4c34afb841e929f2d))
+
+
+### Housekeeping items
+
+* Remove old starter content [skip ci] ([e646081](https://gitlab.com/zivbk1/hugostarter/commit/e646081f3bded162c8abbe4464cad9226923cfc2))
+* Update gitignore ([e223b89](https://gitlab.com/zivbk1/hugostarter/commit/e223b89d9e8a57fab624277e1507e79ecd885bd8))
+* Update navigation ([f9550b8](https://gitlab.com/zivbk1/hugostarter/commit/f9550b8395f7345b883521dc0cb68bf968b59e69))
+
 ### [1.0.1-1](https://gitlab.com/zivbk1/hugostarter/compare/v1.0.1-0...v1.0.1-1) (2022-04-13)
 
 
