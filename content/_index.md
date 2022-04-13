@@ -66,7 +66,7 @@ The Good Dogs project is focused on teaching you best practices for raising and 
     <figcaption>Photo by County Life.</figcaption>
 </figure>
 
-## Why? 
+## Why
 
 We want to teach you how to create positive relationships between you and your dog. 
 ## How
