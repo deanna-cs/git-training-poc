@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1-1](https://gitlab.com/zivbk1/hugostarter/compare/v1.0.1-0...v1.0.1-1) (2022-04-13)
+
+
+### Design changes
+
+* Add some css styling for figcaption elements ([11e9ad1](https://gitlab.com/zivbk1/hugostarter/commit/11e9ad1717d1f3dfbf610bdda21376421a39c8bf))
+
+
+### New material
+
+* Add pictures of dogs ([21e5bef](https://gitlab.com/zivbk1/hugostarter/commit/21e5befa086ce44689f702030f26207db6c6b81f))
+* Add some content about the Good Dogs project to homepage ([9cf1aff](https://gitlab.com/zivbk1/hugostarter/commit/9cf1afffb736e1d772321218dce49110fd4b95a1))
+
 ### 1.0.1-0 (2022-04-02)
 
 
